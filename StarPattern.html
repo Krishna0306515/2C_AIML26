@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="triangle()">Triangle Pattern</button>
+
+<script>
+function triangle() {
+    let result = "";
+
+    for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= i; j++) {
+            result += "* ";
+        }
+        result += "<br>";
+    }
+
+    document.write(result);
+}
+</script>
+
+</body>
+</html>
